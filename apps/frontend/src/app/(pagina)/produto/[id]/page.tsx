@@ -1,3 +1,4 @@
+'use client'
 import AvaliacaoEspecializada from '@/components/produto/AvaliacaoEspecializada'
 import AvaliacoesUsuarios from '@/components/produto/AvaliacoesUsuarios'
 import BannerCompra from '@/components/produto/BannerCompra'
