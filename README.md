@@ -1,7 +1,8 @@
 
 ### Projeto E-commerce Gam3r.store
 
-Contruido com as tecnologias:
+Este projeto foi realizado durante a semana da <a href="https://www.formacao.dev/">Formação Dev</a> abordando a construção de uma aplicação Fullstack
+com Fontend, Backend e Mobile tudo feito com as tecnologias:
 
 
 <div>
@@ -35,8 +36,16 @@ pnpm dev
 # or
 bun dev
 ```
+### Confira o projeto no figma -> <a href="https://www.figma.com/design/9UqMQRjpNWFVRPsDj3nrsY/Gam3rStore?node-id=0-1&node-type=canvas&t=dE8tvl5Uk8eIszXP-0">Gm3r.store</a>
 
-Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
+Abra <a href="http://localhost:3000">localhost</a> com seu navegador para ver o resultado.
+
+<img src="./public/Gam3r.store.png">
+
+<br/>
+
+<img src="./public/Gam3r.storeII.png">
+
 
 Você pode começar a editar a página modificando `app/page.tsx`. A página é atualizada automaticamente conforme você edita o arquivo.
 .
