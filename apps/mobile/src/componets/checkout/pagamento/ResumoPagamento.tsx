@@ -1,7 +1,8 @@
+import Cores from '@/data/constants/Cores'
 import { Ionicons } from '@expo/vector-icons'
 import { Moeda, Parcelamento } from '@gstore/core'
 import { View, Text, StyleSheet, Pressable } from 'react-native'
-import Cores from '@/src/data/constants/Cores'
+
 
 export interface ResumoPagamentoProps {
     qtdeItens: number

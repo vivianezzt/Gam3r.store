@@ -1,10 +1,12 @@
 import { StyleSheet, SafeAreaView, Text, ScrollView } from 'react-native'
-import CabecalhoCheckout from '@/src/components/checkout/CabecalhoCheckout'
-import FormularioEntrega from '@/src/components/checkout/pagamento/FormularioEntrega'
-import ResumoPagamento from '@/src/components/checkout/pagamento/ResumoPagamento'
-import SelecaoFormaPagamento from '@/src/components/checkout/pagamento/SelecaoFormaPagamento'
-import useCarrinho from '@/src/data/hooks/useCarrinho'
-import usePagamento from '@/src/data/hooks/usePagamento'
+import CabecalhoCheckout from '@/componets/checkout/CabecalhoCheckout'
+import FormularioEntrega from '@/componets/checkout/pagamento/FormularioEntrega'
+import ResumoPagamento from '@/componets/checkout/pagamento/ResumoPagamento'
+import SelecaoFormaPagamento from '@/componets/checkout/pagamento/SelecaoFormaPagamento'
+import useCarrinho from '@/data/hooks/useCarrinho'
+import usePagamento from '@/data/hooks/usePagamento'
+
+
 
 export default function Pagamento() {
     const { parcelamento, qtdeItens, valorTotal, valorTotalCheio } = useCarrinho()

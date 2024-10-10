@@ -1,9 +1,10 @@
 import { Ionicons } from '@expo/vector-icons'
 import { Moeda, Produto } from '@gstore/core'
 import { View, Text, Pressable, StyleSheet } from 'react-native'
-import Cores from '@/src/data/constants/Cores'
+
 import useCarrinho from '../../data/hooks/useCarrinho'
 import useParcelamento from '../../data/hooks/useParcelamento'
+import Cores from '@/data/constants/Cores'
 
 export interface BannerCompraProps {
     produto: Produto

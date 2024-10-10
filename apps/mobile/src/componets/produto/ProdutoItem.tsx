@@ -5,7 +5,8 @@ import { Ionicons } from '@expo/vector-icons'
 import NotaReview from '../shared/NotaReview'
 import useCarrinho from '../../data/hooks/useCarrinho'
 import useParcelamento from '../../data/hooks/useParcelamento'
-import Cores from '@/src/data/constants/Cores'
+import Cores from '@/data/constants/Cores'
+
 
 export interface ProdutoItemProps {
     produto: Produto

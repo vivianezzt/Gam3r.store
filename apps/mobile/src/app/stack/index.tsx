@@ -1,12 +1,13 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer, DarkTheme } from '@react-navigation/native'
-import { ProvedorCarrinho } from '@/src/data/contexts/ContextoCarrinho'
-import { ProvedorPagamento } from '@/src/data/contexts/ContextoPagamento'
-import { ProvedorProdutos } from '@/src/data/contexts/ContextoProdutos'
+
 import Pagamento from './Pagamento'
 import ProdutoDetalhes from './ProdutoDetalhes'
 import Tabs from '../tabs'
 import UltimasCompras from './UltimasCompras'
+import { ProvedorProdutos } from '@/data/contexts/ContextoProdutos'
+import { ProvedorCarrinho } from '@/data/contexts/ContextoCarrinho'
+import { ProvedorPagamento } from '@/data/contexts/ContextoPagamento'
 
 const Stack = createNativeStackNavigator()
 

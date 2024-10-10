@@ -1,9 +1,10 @@
+import AvaliacoesUsuarios from '@/componets/produto/AvaliacoesUsuarios'
+import BannerCompra from '@/componets/produto/BannerCompra'
+import Especificacoes from '@/componets/produto/Especificacoes'
+import MedidorDePreco from '@/componets/produto/MedidorDePreco'
+import Cores from '@/data/constants/Cores'
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
-import Especificacoes from '../../components/produto/Especificacoes'
-import BannerCompra from '../../components/produto/BannerCompra'
-import Cores from '@/src/data/constants/Cores'
-import MedidorDePreco from '@/src/components/produto/MedidorDePreco'
-import AvaliacoesUsuarios from '@/src/components/produto/AvaliacoesUsuarios'
+
 
 export default function ProdutoDetalhes(props: any) {
     const { produto } = props.route.params

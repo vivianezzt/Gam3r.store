@@ -1,6 +1,7 @@
+import ProdutoItem from '@/componets/produto/ProdutoItem'
+import useProdutos from '@/data/hooks/useProdutos'
 import { StyleSheet, ScrollView, SafeAreaView } from 'react-native'
-import ProdutoItem from '../../components/produto/ProdutoItem'
-import useProdutos from '@/src/data/hooks/useProdutos'
+
 
 export default function Inicio({ navigation }: any) {
     const { produtos } = useProdutos()

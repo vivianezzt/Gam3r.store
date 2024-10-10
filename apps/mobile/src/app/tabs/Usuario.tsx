@@ -1,7 +1,8 @@
+import Perfil from '@/componets/perfil/Perfil'
+import Cores from '@/data/constants/Cores'
 import { Ionicons } from '@expo/vector-icons'
 import { Text, StyleSheet, SafeAreaView, Pressable, Alert } from 'react-native'
-import Cores from '@/src/data/constants/Cores'
-import Perfil from '@/src/components/perfil/Perfil'
+
 
 export default function Usuario({ navigation }: any) {
     return (

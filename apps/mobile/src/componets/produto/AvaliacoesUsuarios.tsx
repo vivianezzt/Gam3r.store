@@ -1,7 +1,8 @@
 import { Produto } from '@gstore/core'
 import { View, Text } from 'react-native'
-import Cores from '@/src/data/constants/Cores'
+
 import NotaReview from '../shared/NotaReview'
+import Cores from '@/data/constants/Cores'
 
 export interface AvaliacoesUsuariosProps {
     produto: Produto

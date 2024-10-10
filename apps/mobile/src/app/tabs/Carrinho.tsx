@@ -1,11 +1,12 @@
 import { StyleSheet, SafeAreaView, ScrollView, Pressable, Text } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { ItemCarrinho } from '@gstore/core'
-import CabecalhoCheckout from '@/src/components/checkout/CabecalhoCheckout'
-import CarrinhoItem from '../../components/checkout/carrinho/CarrinhoItem'
-import CarrinhoVazio from '@/src/components/checkout/carrinho/CarrinhoVazio'
-import Cores from '@/src/data/constants/Cores'
-import useCarrinho from '@/src/data/hooks/useCarrinho'
+import CabecalhoCheckout from '@/componets/checkout/CabecalhoCheckout'
+import CarrinhoVazio from '@/componets/checkout/carrinho/CarrinhoVazio'
+import CarrinhoItem from '@/componets/checkout/carrinho/CarrinhoItem'
+import Cores from '@/data/constants/Cores'
+import useCarrinho from '@/data/hooks/useCarrinho'
+
 
 export default function Carrinho({ navigation }: any) {
     const { itens, qtdeItens, adicionarItem, removerItem, removerProduto } = useCarrinho()

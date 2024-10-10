@@ -2,7 +2,8 @@ import { Fontisto, Ionicons } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient'
 import { Produto } from '@gstore/core'
 import { View, Text, StyleSheet } from 'react-native'
-import Cores from '@/src/data/constants/Cores'
+import Cores from '@/data/constants/Cores'
+
 
 export interface MedidorDePrecoProps {
     produto: Produto
